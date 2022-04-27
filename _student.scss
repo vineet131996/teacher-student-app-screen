@@ -1,0 +1,52 @@
+.student-category{
+   .teachercategoryinner{
+    overflow: auto;
+    height: 655px;
+   }
+    .genderselect {
+        margin: 20px 0px 20px 0px;
+    }
+    .teaching-modes,
+    .genderselect{
+        text-align: left!important;
+        h1{
+        
+              font-size: 15px;
+              color: #000;
+              font-weight: 600;
+              font-family: 'Lato', sans-serif;
+              margin: 25px 0px 15px 0px !important;
+            
+        
+        }
+    
+    .teaching-modesinner{
+        margin-bottom: 5px;
+        label{
+            padding: 12px 0px 12px 30px;
+        }
+        label::before {
+            content: "";
+            position: absolute;
+            width: 14px;
+            height: 14px;
+        
+        
+            left: 10px;
+          
+          
+          }
+          
+          label::after {
+            content: "";
+         
+            width: 14px;
+            height: 14px;
+      
+            left: 10px;
+          
+          }
+        
+    }
+}
+}

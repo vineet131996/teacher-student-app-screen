@@ -1,0 +1,80 @@
+.teacher-category.teacher-listhead{
+
+    .profilelist{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px 0 rgba(32,33,36,0.10);
+    margin-bottom: 10px;
+        .profilelistimg{
+            width: 60px;
+            display: flex;
+            margin-right: 10px;
+            img{
+                width: 60px;
+                height: 60px;
+             
+                object-fit: cover;
+                border: 4px solid #e7e7e7;
+                border-radius: 50%;
+
+            }
+        }
+        .profilelisttext{
+            width: 85%;
+.profilelisttextinner{
+  
+    .teacherreviews{
+        h5{
+            font-size: 13px;
+    font-weight: 400;
+    color: darkgrey;
+    margin-bottom: 2px;
+        }
+        h6{
+            font-size: 15px;
+            font-weight: 600;
+            color: rgb(83, 83, 83);
+            margin-bottom: 2px;
+        }
+    }
+    ul{
+       
+            display: flex;
+           
+            align-items: center;
+    }
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    .viewprofile{
+        padding: 3px 10px;
+    background-color: #f7ba34;
+    border: 1px solid #f7ba34;
+   
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 50px;
+    &:hover{
+        color: #477b72;
+        border: 1px solid #477b72;
+        transition: all 0.5s;
+        background-color: transparent;
+    }
+
+    }
+}
+        }
+    }
+}

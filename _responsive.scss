@@ -1,0 +1,25 @@
+
+
+
+
+
+$small: 370px;
+
+
+// .smth {
+  
+  @media screen and (max-width: $small) {
+    .teacher-homehead .teacherdashinner,
+    .teacher-homehead2 .teacherdashinner{
+        width: 100%!important;
+    }
+    // .teacher-homehead .teacherdashright,
+    // .teacher-homehead2 .teacherdashright {
+    //     margin-left: 10px;
+    // }
+    .teacher-homehead .teacherdashinner,
+    .teacher-homehead2 .teacherdashinner{
+        background-position: top;
+    }
+  }
+// }

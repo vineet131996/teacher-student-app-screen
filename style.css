@@ -1,0 +1,1855 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.appheading {
+  padding: 16px 25px 45px 25px;
+}
+
+.appheading .menutop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+.appheading .menutop .arrowicon {
+  width: 6%;
+}
+
+.appheading .menutop .headingw {
+  width: 70%;
+}
+
+.appheading .menutop .searchicon {
+  width: 24%;
+  text-align: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.appheading .menutop .searchicon i {
+  margin-right: 7px;
+}
+
+.appscreencover {
+  min-width: 320px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.appscreencover .form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.appscreencover .form-group input {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 14px 15px 14px 45px;
+  width: 100%;
+  border: 1px solid #ededed;
+  height: 41px;
+  font-size: 12px;
+}
+
+.appscreencover .form-group input:focus-visible {
+  outline: 0px;
+}
+
+.appscreencover .form-group .inputicon {
+  position: absolute;
+  width: 25px;
+  top: 7px;
+  left: 8px;
+}
+
+.appscreencover .theambtn {
+  margin-top: 20px;
+}
+
+.appscreencover .theambtn a {
+  display: block;
+  width: 100%;
+  background-color: #f7ba34;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  font-size: 13px;
+  border: 1px solid #f7ba34;
+}
+
+.appscreencover .theambtn a:hover {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  border: 1px solid #477b72;
+  color: #477b72;
+  background-color: transparent;
+}
+
+.genderselect label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.genderselect label img {
+  margin-right: 5px;
+  width: 18px;
+}
+
+.genderselect input[type="radio"] {
+  display: none;
+}
+
+.genderselect input[type="radio"] + label {
+  z-index: 10;
+  position: relative;
+  color: #ced4da;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.genderselect input[type="radio"]:checked + label {
+  color: #495057;
+  background-color: #d1dbdb82;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.genderselect input[type="radio"] + label {
+  padding: 3px 6px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.genderselect {
+  margin: 15px 0px 20px 0px;
+}
+
+.genderselect .genderselectinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 92%;
+}
+
+.genderselect .genderselectinner h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.teaching-modesinner {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  border: 1px solid #f1f1f1;
+  position: relative;
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.teaching-modesinner img {
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 0.4;
+}
+
+.teaching-modesinner input[type="radio"] {
+  display: none;
+}
+
+.teaching-modesinner label {
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+  padding-left: 25px;
+  display: block;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Lato', sans-serif;
+  padding: 18px 0px 18px 35px;
+  text-align: left;
+}
+
+.teaching-modesinner label::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  border: 3px solid #477b728f;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 11px;
+  -webkit-transition: border-color 400ms ease;
+  transition: border-color 400ms ease;
+}
+
+.teaching-modesinner label::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #f7ba34;
+  border: 2px solid #477b72;
+  border-radius: 50%;
+  top: 50%;
+  left: 12px;
+  -webkit-transform: translateY(-50%) scale(0);
+          transform: translateY(-50%) scale(0);
+  -webkit-transition: -webkit-transform 400ms ease;
+  transition: -webkit-transform 400ms ease;
+  transition: transform 400ms ease;
+  transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
+
+.teaching-modesinner input[type="radio"]:checked + label::before {
+  border-color: #477b72;
+}
+
+.teaching-modesinner input[type="radio"]:checked + label::after {
+  -webkit-transform: translateY(-50%) scale(0.55);
+          transform: translateY(-50%) scale(0.55);
+}
+
+.teaching-modesinner.addbgclass {
+  background-color: #f7ba34 !important;
+}
+
+.teaching-modesinner.addbgclass label {
+  color: white;
+  font-weight: 600;
+}
+
+.homescreencover {
+  z-index: 0 !important;
+}
+
+.homescreencover .accodininnerpart form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.homescreencover .accodininnerpart form label {
+  width: 50%;
+}
+
+.homescreencover .accodininnerpartthree form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.homescreencover .accodininnerpartthree form label {
+  width: 33%;
+}
+
+.homescreencover .margbottom {
+  padding: 3px 15px 3px 15px;
+  background: #fff;
+  border: 1px solid #e7ebea;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.homescreencover input[type="checkbox"],
+.homescreencover label {
+  margin: 0;
+  padding: 0;
+}
+
+.homescreencover label {
+  margin: 5px 0px;
+  line-height: 1;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.homescreencover label:hover input[type="checkbox"] + svg.checkbox .checkbox-box {
+  fill: black;
+  fill-opacity: 0.05;
+}
+
+.homescreencover label input[type="checkbox"] {
+  display: none;
+}
+
+.homescreencover label input[type="checkbox"]:checked + svg.checkbox .checkbox-mark {
+  stroke-dashoffset: 0;
+  -webkit-transition: stroke-dashoffset 0.2s linear;
+  transition: stroke-dashoffset 0.2s linear;
+}
+
+.homescreencover label svg.checkbox {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.homescreencover label svg.checkbox .checkbox-box,
+.homescreencover label svg.checkbox .checkbox-mark {
+  fill: none;
+  stroke: #477b72;
+  stroke-linecap: round;
+  stroke-width: 8px;
+}
+
+.homescreencover label svg.checkbox .checkbox-mark {
+  stroke-linejoin: round;
+  stroke-dasharray: 120;
+  stroke-dashoffset: 120;
+}
+
+.homescreencover label span.label-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #477b72;
+}
+
+.homescreencover .reverse {
+  stroke-dashoffset: 120;
+  -webkit-transition: stroke-dashoffset 0.2s linear;
+  transition: stroke-dashoffset 0.2s linear;
+}
+
+.teacher-register.login-headtop,
+.appscreencover.centerblock.homescreencover,
+.teacher-register.login-headtop.homescreencover {
+  overflow: hidden;
+}
+
+.form-control:focus,
+select:focus,
+select:focus-visible {
+  -webkit-box-shadow: 1px 5px 11px -6px rgba(0, 123, 255, 0.25);
+          box-shadow: 1px 5px 11px -6px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.qualificationcover {
+  position: relative;
+}
+
+.qualificationcover select {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 12px 15px 12px 45px;
+  width: 100%;
+  border: 1px solid #ededed;
+  height: 41px;
+  font-size: 12px;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.qualificationcover select option {
+  padding: 0px !important;
+}
+
+.qualificationcover .qualiselectimg {
+  position: absolute;
+  top: 16%;
+  left: 6px;
+  width: 28px;
+}
+
+.qualificationcover .fa-angle-down {
+  position: absolute;
+  top: 21%;
+  right: 10px;
+  font-size: 17px;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidemenuopen:after {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  -webkit-transition: 0.7s all;
+  transition: 0.7s all;
+  opacity: 0;
+  visibility: hidden;
+}
+
+body.sidemenuopen:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.toggle-menu {
+  width: 34px;
+  height: 36px;
+  position: relative;
+  top: -9px;
+  cursor: pointer;
+  z-index: 1000;
+  display: block;
+  background: transparent;
+}
+
+.toggle-menu i {
+  position: absolute;
+  display: block;
+  height: 2px;
+  background: #fff;
+  width: 23px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.toggle-menu i:nth-child(1) {
+  top: 16px;
+  right: 0;
+}
+
+.toggle-menu i:nth-child(2) {
+  top: 24px;
+  width: 20px;
+  right: 0px;
+}
+
+.toggle-menu.active i:nth-child(3) {
+  width: 23px;
+}
+
+.toggle-menu i:nth-child(3) {
+  top: 32px;
+  width: 15px;
+  right: 0px;
+}
+
+.toggle-menu.active i:nth-child(1) {
+  top: 25px;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.toggle-menu.active i:nth-child(2) {
+  background: transparent;
+}
+
+.toggle-menu.active i:nth-child(3) {
+  top: 25px;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+.menu-drawer {
+  width: 300px;
+  background-color: #ffffff;
+  height: 100%;
+  position: absolute;
+  left: -550px;
+  top: 0;
+  border-radius: 0px 20px 20px 0px;
+  -webkit-transition: left linear 0.5s;
+  transition: left linear 0.5s;
+  z-index: 99999;
+}
+
+body.sidemenuopen .menu-drawer {
+  left: 0px;
+  -webkit-transition: left linear 0.7s;
+  transition: left linear 0.7s;
+}
+
+.menu-drawer .sidebarhead {
+  background-color: #477b72;
+  border-radius: 0px 18px 0px 0px;
+  padding: 15px 0px 15px 20px;
+}
+
+.menu-drawer li {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.menu-drawer li a {
+  font-size: 12px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0px 5px 20px;
+  text-decoration: none;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.menu-drawer li a img {
+  width: 30px !important;
+  margin-right: 5px;
+}
+
+.menu-drawer li a i {
+  font-size: 25px !important;
+  margin-right: 10px;
+  color: #c2cfcf;
+}
+
+.menu-drawer li a:hover {
+  color: #477b72;
+  background-color: #e9e9e9;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.appscreencover.flashscreen {
+  text-align: center;
+  background-color: #477b72;
+  border-radius: 0px;
+  background-image: url(../images/flash-bg-01.png);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.appscreencover.flashscreen .flashscreencover {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 85vh;
+}
+
+.appscreencover.flashscreen .flashscreencover .theambtn {
+  margin-top: 20px;
+  width: 60%;
+  margin: 70px auto 0px auto;
+}
+
+.appscreencover.flashscreen .flashscreencover .theambtn a:hover {
+  background-color: #fff;
+  color: #477b72;
+}
+
+.appscreencover.flashscreen .flashscreencover .flashscreen img {
+  width: 90% !important;
+}
+
+.appscreencover.flashscreen .flashscreencover .flashscreen span {
+  display: block;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.homescreenhead .homescreencover {
+  background-image: url(../images/homebg.svg) !important;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover !important;
+}
+
+.appscreencover .logo,
+.appscreencover .appheading {
+  padding: 15px 25px 40px 25px;
+  background-color: #477b72;
+}
+
+.appscreencover .logo img,
+.appscreencover .appheading img {
+  width: 180px;
+}
+
+.appscreencover .centerblock {
+  text-align: center;
+}
+
+.appscreencover .centerblock .titlemain {
+  position: absolute;
+  top: 35px;
+}
+
+.appscreencover .centerblock .homescreencover {
+  z-index: 999;
+  padding: 50px 0px 60px 0px;
+  background: white;
+  position: relative;
+  margin-top: -30px;
+  border-radius: 10px;
+}
+
+.appscreencover .centerblock .homescreencover .teachortutor {
+  margin: 50px 0px 50px 0px;
+}
+
+.appscreencover .centerblock .homescreencover .teachortutor .profile-text {
+  margin-top: 30px;
+}
+
+.appscreencover .centerblock .homescreencover .teachortutor .profile-text h2 {
+  font-size: 15px;
+  color: #343333;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.appscreencover .centerblock .homescreencover .teachortutor .profile-teacher {
+  border-radius: 50%;
+  -webkit-animation: ripple 1s linear infinite;
+          animation: ripple 1s linear infinite;
+  display: inline-block;
+  position: relative;
+  width: 95px;
+  height: 95px;
+}
+
+.appscreencover .centerblock .homescreencover .teachortutor .profile-teacher:hover::after {
+  opacity: 13%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(71, 123, 114, 0.1), 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1);
+            box-shadow: 0 0 0 0 rgba(71, 123, 114, 0.1), 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1), 0 0 0 40px rgba(71, 123, 114, 0);
+            box-shadow: 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1), 0 0 0 40px rgba(71, 123, 114, 0);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(71, 123, 114, 0.1), 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1);
+            box-shadow: 0 0 0 0 rgba(71, 123, 114, 0.1), 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1), 0 0 0 40px rgba(71, 123, 114, 0);
+            box-shadow: 0 0 0 5px rgba(71, 123, 114, 0.1), 0 0 0 15px rgba(71, 123, 114, 0.1), 0 0 0 25px rgba(71, 123, 114, 0.1), 0 0 0 40px rgba(71, 123, 114, 0);
+  }
+}
+
+.appscreencover .centerblock .homescreencover .teachortutor .profile-teacher img {
+  width: 95px;
+  height: 95px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #477b72;
+  border-radius: 50%;
+}
+
+.appscreencover .centerblock .homescreencover .teachortutor .custumradiobtn.openon {
+  top: 100% !important;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+  margin-bottom: 0px !important;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.8;
+  margin: 0;
+  margin-bottom: 0px !important;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  margin-bottom: 0px !important;
+}
+
+/*h5, h6 {
+    font-weight: 600;
+}*/
+img {
+  width: 100%;
+  height: auto;
+}
+
+a, a:hover {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.education:last-child:hover {
+  background-color: transparent;
+}
+.teacher-register .homescreencover {
+  z-index: 999;
+  background: white;
+  position: relative;
+  margin-top: -30px;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px !important;
+}
+
+.teacher-register .homescreencover label svg.checkbox {
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+}
+
+.teacher-register .homescreencover .homescreeninner {
+  height: 421px;
+  overflow: auto;
+}
+
+.teacher-register .homescreencover .teacher-register-imgcover {
+  background-image: url(../images/registerbg.svg);
+  height: 100%;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+}
+
+.teacher-register .homescreencover .teacher-register-imgcover .teacher-register-img {
+  max-width: 180px;
+  margin: auto;
+}
+
+.teacher-register .homescreencover .uploadaadhar {
+  padding: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.teacher-register .homescreencover .uploadaadhar h3 {
+  font-size: 12px;
+  padding: 0 0px 0 0px;
+  text-align: left;
+  margin-bottom: 7px !important;
+  font-weight: 600;
+}
+
+.teacher-register .homescreencover .uploadaadhar .col-ting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.teacher-register .homescreencover .uploadaadhar .col-ting .photoupload {
+  width: 100% !important;
+}
+
+.teacher-register .homescreencover .uploadaadhar .col-ting .file-upload {
+  width: 48%;
+}
+
+.teacher-register .homescreencover .uploadaadhar .col-ting .file-upload .image-box {
+  height: 100px;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #d2d7dd;
+}
+
+.teacher-register .homescreencover .uploadaadhar .col-ting .file-upload .image-box i {
+  font-size: 30px;
+  color: #477b72;
+}
+
+.teacher-register .homescreencover .uploadaadhar .col-ting .file-upload .image-box img {
+  height: 100%;
+  display: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.teacher-register .homescreencover .uploadaadhar .col-ting .file-upload .image-box p {
+  position: relative;
+  top: 50%;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 11px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: 500;
+}
+
+.teacher-category .homescreencover {
+  background-image: url(../images/teachet-category-bg.png) !important;
+  width: 100%;
+  height: 100vh !important;
+  background-position: center;
+  background-size: auto !important;
+  padding: 20px 15px 20px 15px !important;
+}
+
+.teacher-category .homescreencover .teachercategoryinner {
+  overflow: auto;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .categoryheading {
+  text-align: left;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .categoryheading h1 {
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  margin: 0px 0px 20px 0px !important;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .accordion .item {
+  border: none;
+  background: none;
+  border-bottom: none;
+  background: transparent;
+  margin-bottom: 5px;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .accordion .item .inneraccodin {
+  padding: 10px;
+  background-color: #fff;
+  background-image: url(../images/accodin-bg-01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .accordion .item .item-header {
+  border-bottom: none;
+  background: transparent;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .accordion .item .item-header span {
+  float: right;
+  font-size: 18px;
+  color: #477b72;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .accordion .item .item-header .btn-link {
+  background: #fff;
+  color: white;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 1px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  border: 1px solid #e7ebea;
+  color: #477b72;
+  font-weight: 600;
+  padding: 8px 15px;
+}
+
+.teacher-category .homescreencover .teachercategoryinner .accordion .item button.btn.btn-link.collapsed i {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.teacher-category .homescreencover .teachercategoryinner .accordion .item button.btn.btn-link i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.teaching-mode .teachin-mode-imgcover {
+  background-image: url(../images/mode-bg.svg);
+  height: 100%;
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.teaching-mode .homescreencover {
+  z-index: 999;
+  background: white;
+  position: relative;
+  margin-top: -30px;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px !important;
+}
+
+.teaching-mode .homescreencover .teacher-register-img {
+  max-width: 180px;
+  margin: auto;
+}
+
+.teaching-mode .homescreencover .teaching-modes {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.teaching-mode .homescreencover .teaching-modes .teaching-modesinner label {
+  padding: 12px 0px 12px 35px;
+}
+
+.teaching-mode .homescreencover .teaching-modes h1 {
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  margin: 5px 0px 25px 0px !important;
+}
+
+.student-category .teachercategoryinner {
+  overflow: auto;
+  height: 655px;
+}
+
+.student-category .genderselect {
+  margin: 20px 0px 20px 0px;
+}
+
+.student-category .teaching-modes,
+.student-category .genderselect {
+  text-align: left !important;
+}
+
+.student-category .teaching-modes h1,
+.student-category .genderselect h1 {
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  margin: 25px 0px 15px 0px !important;
+}
+
+.student-category .teaching-modes .teaching-modesinner,
+.student-category .genderselect .teaching-modesinner {
+  margin-bottom: 5px;
+}
+
+.student-category .teaching-modes .teaching-modesinner label,
+.student-category .genderselect .teaching-modesinner label {
+  padding: 12px 0px 12px 30px;
+}
+
+.student-category .teaching-modes .teaching-modesinner label::before,
+.student-category .genderselect .teaching-modesinner label::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 10px;
+}
+
+.student-category .teaching-modes .teaching-modesinner label::after,
+.student-category .genderselect .teaching-modesinner label::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  left: 10px;
+}
+
+.teacher-register.login-headtop .homescreeninner {
+  height: 100% !important;
+}
+
+.teacher-register.login-headtop .homescreencover {
+  padding: 50px 25px 10px 25px !important;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia {
+  padding: 40px 0px;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia h2 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #477b72;
+  margin-bottom: 40px !important;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia .loginsocialinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia .loginsocialinner .socialmedia {
+  width: 25%;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #8080803b;
+  border-radius: 6px;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia .loginsocialinner .socialmedia:hover {
+  background: #477b7214;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia .loginsocialinner .socialmedia img {
+  width: 23px;
+  margin: auto;
+  line-height: 25px;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia .registerfirst {
+  margin-top: 50px;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia .registerfirst h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+}
+
+.teacher-register.login-headtop .homescreencover .loginsocialmedia .registerfirst h3 a {
+  color: #477b72;
+}
+
+.teacher-register.login-headtop .homescreencover label {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .radio-img span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #477b72;
+  margin-top: 10px;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .image {
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .image:hover {
+  opacity: 1;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .radio-img > input {
+  display: none;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .radio-img > .image {
+  cursor: pointer;
+  border: 10px solid #477b721a;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .radio-img > input:checked + .image {
+  border: 10px solid #f7ba34;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .homescreeninner .appheading {
+  text-align: center;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .homescreeninner .appheading h1 {
+  display: block;
+}
+
+.teacher-register.login-headtop .homescreencover .loginimgcover .homescreeninner .appheading h1 .headingw {
+  width: 100%;
+}
+
+.teacher-register.confirmation-head .homescreencover {
+  padding: 80px 25px 80px 25px !important;
+}
+
+.teacher-register.confirmation-head .confirmation-text {
+  margin-bottom: 45px;
+}
+
+.teacher-register.confirmation-head .confirmation-text h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px !important;
+}
+
+.teacher-register.confirmation-head .confirmation-text p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.teacher-category.teacher-listhead .profilelist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 7px 0 rgba(32, 33, 36, 0.1);
+          box-shadow: 0 2px 7px 0 rgba(32, 33, 36, 0.1);
+  margin-bottom: 10px;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelistimg {
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelistimg img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 4px solid #e7e7e7;
+  border-radius: 50%;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelisttext {
+  width: 85%;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelisttext .profilelisttextinner {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelisttext .profilelisttextinner .teacherreviews h5 {
+  font-size: 13px;
+  font-weight: 400;
+  color: darkgrey;
+  margin-bottom: 2px;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelisttext .profilelisttextinner .teacherreviews h6 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #535353;
+  margin-bottom: 2px;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelisttext .profilelisttextinner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelisttext .profilelisttextinner .viewprofile {
+  padding: 3px 10px;
+  background-color: #f7ba34;
+  border: 1px solid #f7ba34;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 10px;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 50px;
+}
+
+.teacher-category.teacher-listhead .profilelist .profilelisttext .profilelisttextinner .viewprofile:hover {
+  color: #477b72;
+  border: 1px solid #477b72;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+
+.teacher-category.teacher-listhead.profilehead .profilelist .profilelistimg {
+  width: 90px;
+}
+
+.teacher-category.teacher-listhead.profilehead .profilelist .profilelistimg img {
+  width: 90px;
+  height: 100px;
+  border: 2px solid #e7e7e7;
+  border-radius: 10px;
+}
+
+.teacher-category.teacher-listhead.profilehead .profilelist .teacherreviews ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teacher-category.teacher-listhead.profilehead .profilelist .teacherreviews .socialmedia-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 5px 5px 0px 0px;
+  color: #477b72;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  border: 1px solid #477b72;
+  font-size: 14px;
+}
+
+.teacher-category.teacher-listhead.profilehead .profilelist .teacherreviews .socialmedia-icon:hover {
+  background-color: #477b72;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.teacher-category.teacher-listhead.profilehead .teacherabout.teacherprofilesepratre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.teacher-category.teacher-listhead.profilehead .teacherabout.teacherprofilesepratre .teacheraboutinner {
+  width: 50%;
+}
+
+.teacher-category.teacher-listhead.profilehead .teacherabout {
+  -webkit-box-shadow: 0 2px 7px 0 rgba(32, 33, 36, 0.1);
+          box-shadow: 0 2px 7px 0 rgba(32, 33, 36, 0.1);
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.teacher-category.teacher-listhead.profilehead .teacherabout .teacheraboutinner {
+  margin-bottom: 15px;
+}
+
+.teacher-category.teacher-listhead.profilehead .teacherabout .teacheraboutinner h3 {
+  font-size: 12px;
+  padding: 0 0px 0 0px;
+  text-align: left;
+  margin-bottom: 5px !important;
+  font-weight: 600;
+}
+
+.teacher-category.teacher-listhead.profilehead .teacherabout .teacheraboutinner p {
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 400;
+  color: #a9a9a9;
+}
+
+.teacher-category.teacher-listhead.notificationhead .profilelisttextinner .viewprofile {
+  padding: 0px 0px !important;
+  color: gray !important;
+  font-size: 10px;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border: none !important;
+  width: 40% !important;
+}
+
+.teacher-category.teacher-listhead.notificationhead .profilelisttextinner .teacherreviews h5 {
+  font-size: 10px !important;
+}
+
+.searchscreen .searchby {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.searchscreen .searchby h2 {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #d3cfcf;
+  padding: 5px 0px 10px 0px;
+}
+
+.searchscreen .searchby .newcondidatesinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.searchscreen .searchby .newcondidatesinner .newcondidates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 6px;
+  background: #fbfbfb;
+  cursor: pointer;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-top: 5px;
+  text-transform: capitalize;
+  color: #477b72;
+  font-weight: 600;
+}
+
+.searchscreen .searchby .newcondidatesinner .newcondidates:hover {
+  border: 1px solid #f7ba34 !important;
+  color: #f7ba34 !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.searchscreen .profilelist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 7px 0 rgba(32, 33, 36, 0.1);
+          box-shadow: 0 2px 7px 0 rgba(32, 33, 36, 0.1);
+  margin-bottom: 10px;
+}
+
+.searchscreen .profilelist .profilelistimg {
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+.searchscreen .profilelist .profilelistimg img {
+  width: 55px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #e7e7e7;
+  border-radius: 25%;
+}
+
+.searchscreen .profilelist .profilelisttext {
+  width: 85%;
+}
+
+.searchscreen .profilelist .profilelisttext .profilelisttextinner {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.searchscreen .profilelist .profilelisttext .profilelisttextinner .teacherreviews h5 {
+  font-size: 11px;
+  font-weight: 400;
+  color: darkgrey;
+  margin-bottom: 2px;
+}
+
+.searchscreen .profilelist .profilelisttext .profilelisttextinner .teacherreviews h6 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #535353;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+
+.searchscreen .profilelist .profilelisttext .profilelisttextinner .viewprofile {
+  padding: 3px 10px;
+  background-color: #f7ba34;
+  border: 1px solid #f7ba34;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 8px;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 50px;
+}
+
+.searchscreen .profilelist .profilelisttext .profilelisttextinner .viewprofile:hover {
+  color: #477b72;
+  border: 1px solid #477b72;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+
+@-webkit-keyframes growProgressBar {
+  0%, 33% {
+    --pgPercentage: 0;
+  }
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@keyframes growProgressBar {
+  0%, 33% {
+    --pgPercentage: 0;
+  }
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+.teacher-homehead {
+  /* demo */
+}
+
+.teacher-homehead div[role="progressbar"] {
+  --size: 50px;
+  --fg: #477b72;
+  --bg: #def;
+  --pgPercentage: var(--value);
+  -webkit-animation: growProgressBar 3s 1 forwards;
+          animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(closest-side, white 80%, transparent 0 99.9%, #477b72 0), conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+.teacher-homehead div[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.teacher-homehead .teacherdashcover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.teacher-homehead .teacherdashright {
+  margin-left: 10px;
+}
+
+.teacher-homehead .teacherdashright .teacherreviews h6 {
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.teacher-homehead .teacherdashright .teacherreviews h5 {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.teacher-homehead .teacherdashinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49%;
+  background-color: #477b72;
+  padding: 25px 5px;
+  background: url(../images/teacherhome.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.teacher-homehead .session-bgreen {
+  background-color: #477b72;
+}
+
+.teacher-homehead .session-bgorange {
+  background-color: #fd975e;
+}
+
+.teacher-homehead .session-bgred {
+  background-color: #f8d090;
+}
+
+.teacher-homehead .session-bg {
+  background-color: #908750;
+}
+
+.teacher-homehead .teacherhome-bg {
+  background-image: url(../images/tacherhome-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 150px;
+}
+
+.teacher-homehead2 .homescreencover {
+  background-color: #fafbff !important;
+  background-image: none !important;
+}
+
+.teacher-homehead2 .homescreencover .teacherdashcover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.teacher-homehead2 .homescreencover .teacherdashleft {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.teacher-homehead2 .homescreencover .teacherdashright .teacherreviews h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #adadad;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.7px;
+}
+
+.teacher-homehead2 .homescreencover .teacherdashright .teacherreviews h5 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 4px;
+}
+
+.teacher-homehead2 .homescreencover .teacherdashinner {
+  width: 49%;
+  padding: 15px 15px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  margin-bottom: 7px;
+  background-color: #ffffff;
+  background: url(../images/teacherhome.png);
+  -webkit-box-shadow: 0px 3px 6px -3px rgba(0, 0, 0, 0.17);
+          box-shadow: 0px 3px 6px -3px rgba(0, 0, 0, 0.17);
+}
+
+.teacher-homehead2 .homescreencover .teacherdashinner:hover {
+  -webkit-box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.17);
+          box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.17);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.teacher-homehead2 .homescreencover .teacherdashinner {
+  background-color: #ffffff;
+}
+
+.teacher-homehead2 .homescreencover .teacherhome-bg {
+  background-image: url(../images/tacherhome-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 150px;
+}
+
+.teacher-homehead2 .homescreencover .session-bgreen h5 {
+  color: #4c7f76;
+}
+
+.teacher-homehead2 .homescreencover .session-bgorange h5 {
+  color: #9fa5ff;
+}
+
+.teacher-homehead2 .homescreencover .session-bgred h5 {
+  color: #ffbc46;
+}
+
+.teacher-homehead2 .homescreencover .session-bg h5 {
+  color: #ff5979;
+}
+
+@media screen and (max-width: 370px) {
+  .teacher-homehead .teacherdashinner,
+  .teacher-homehead2 .teacherdashinner {
+    width: 100% !important;
+  }
+  .teacher-homehead .teacherdashinner,
+  .teacher-homehead2 .teacherdashinner {
+    background-position: top;
+  }
+}
+/*# sourceMappingURL=style.css.map */

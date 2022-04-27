@@ -1,0 +1,86 @@
+
+  .teacher-homehead2{
+ .homescreencover{
+     background-color: rgb(250,251,255)!important;
+     background-image: none!important;
+ 
+  .teacherdashcover{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: left;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+  .teacherdashleft {
+    width: 40px;
+    height: 40px;
+  margin-bottom: 20px;
+}
+  .teacherdashright{
+      .teacherreviews{
+          h6{
+            font-size: 14px;
+            font-weight: 400;
+            color: #adadad;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 0.7px;
+          }
+          h5{
+            font-size: 22px;
+            font-weight: 700;
+           
+            font-family: 'Roboto', sans-serif;
+            margin-top: 4px;
+          }
+      }
+  }
+  .teacherdashinner{
+    width: 49%;
+    padding: 15px 15px;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    margin-bottom: 7px;
+    background-color: #ffffff;
+    background: url(../images/teacherhome.png);
+    box-shadow: 0px 3px 6px -3px rgba(0,0,0,0.17);
+  }
+  .teacherdashinner:hover{
+  box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.17);
+  transition: all 0.8s;
+  }
+  .teacherdashinner{
+    background-color: #ffffff;
+  }
+.teacherhome-bg{
+  background-image: url(../images/tacherhome-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 150px;
+}
+.session-bgreen{
+   h5{
+       color: #4c7f76;
+   }
+  }
+  .session-bgorange{
+    h5{
+        color: #9fa5ff;
+    }
+  }
+  .session-bgred{
+    h5{
+        color: #ffbc46;
+    }
+  }
+  .session-bg {
+    h5{
+        color: #ff5979;
+    }
+}
+}
+  }

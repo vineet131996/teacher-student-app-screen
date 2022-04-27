@@ -1,0 +1,113 @@
+
+
+
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+  @property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  .teacher-homehead{
+  div[role="progressbar"] {
+    --size: 50px;
+    --fg: #477b72;
+    --bg: #def;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, #477b72 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  /* demo */
+
+  .teacherdashcover{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: left;
+      justify-content: space-between;
+      margin-top: 10px;
+      
+  }
+ 
+  // .teacherdashleft{
+    
+  // }
+  .teacherdashright{
+    
+      margin-left: 10px;
+      .teacherreviews{
+          h6{
+            font-size: 11px;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 5px;
+             
+
+          }
+          h5{
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            font-family: 'Lato', sans-serif;
+          }
+      }
+  }
+  .teacherdashinner{
+       display: flex;
+       width: 49%;
+      
+       background-color: #477b72;
+       padding: 25px 5px;
+       background: url(../images/teacherhome.png);
+       background-position: left;
+       background-size: cover;
+       background-repeat: no-repeat;
+       border-radius: 5px;
+      
+       margin-bottom: 10px;
+  }
+  .session-bgreen{
+    background-color: #477b72;
+   
+  }
+  .session-bgorange{
+    background-color: #fd975e;
+  }
+  .session-bgred{
+background-color: #f8d090;
+  }
+  .session-bg {
+    background-color: #908750;
+}
+.teacherhome-bg{
+  background-image: url(../images/tacherhome-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 150px;
+}
+}

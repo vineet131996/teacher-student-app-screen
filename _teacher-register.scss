@@ -1,0 +1,92 @@
+.teacher-register{
+   
+
+.homescreencover {
+     label svg.checkbox {
+        width: 12px;
+        height: 12px;
+        margin-right: 2px;
+    }
+    .homescreeninner {
+        height: 421px;
+        overflow: auto;
+    }
+    z-index: 999;
+    
+    background: white;
+    position: relative;
+    margin-top: -30px;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px!important;
+  
+.teacher-register-imgcover{
+    background-image: url(../images/registerbg.svg);
+    height: 100%;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    .teacher-register-img {
+        max-width: 180px;
+       
+        margin: auto;
+    }
+}
+    .uploadaadhar{
+        
+        padding: 0;
+        background: #ffffff;
+        border-radius: 10px;
+        margin-bottom: 20px;
+            h3{
+                font-size: 12px;
+                padding: 0 0px 0 0px;
+                text-align: left;
+                margin-bottom: 7px !important;
+                font-weight: 600;
+            }
+        
+        .col-ting{
+            display: flex;
+            justify-content: space-between;
+            .photoupload {
+                width: 100%!important;
+            }
+    .file-upload {
+        width: 48%;
+        .image-box {
+          
+            height: 100px;
+            width: 100%;
+            background: transparent;
+            cursor: pointer;
+            overflow: hidden;
+            border-radius: 10px;
+            border: 1px solid #d2d7dd;
+            i {
+                font-size: 30px;
+                color: #477b72;
+            }
+            
+            img {
+                height: 100%;
+                display: none;
+                object-fit: cover;
+            }
+            
+            p {
+                position: relative;
+                top: 50%;
+                color: rgb(0, 0, 0);
+                display: flex;
+    flex-direction: column;
+                font-size: 11px;
+                transform: translateY(-50%);
+                font-weight: 500;
+            }
+        }
+    }
+    }
+    }
+}
+}
+

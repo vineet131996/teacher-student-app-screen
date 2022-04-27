@@ -1,0 +1,46 @@
+
+.appscreencover.flashscreen{
+    text-align: center;
+    background-color: #477b72;
+    border-radius: 0px;
+    background-image: url(../images/flash-bg-01.png);
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+.flashscreencover{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+    .theambtn {
+        margin-top: 20px;
+        width: 60%;
+        margin: 70px auto 0px auto;
+        a{
+            &:hover{
+                background-color: #fff;
+                color: #477b72;
+            }
+        }
+    }
+    .flashscreen{
+        
+        img{
+            width: 90%!important;
+        }
+        span{
+            display: block;
+            
+                font-size: 50px;
+                color: #fff;
+                font-weight: 500;
+                line-height: 60px;
+           
+        }
+
+    }
+}
+}

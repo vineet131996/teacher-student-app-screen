@@ -1,0 +1,125 @@
+.teacher-register.login-headtop{
+    .homescreeninner{
+        height: 100%!important;
+    }
+    .homescreencover{
+        padding: 50px 25px 10px 25px !important;
+        .loginsocialmedia{
+            padding: 40px 0px;
+            h2{
+                font-size: 13px;
+    font-weight: 600;
+    color: #477b72;
+    margin-bottom: 40px!important;
+            }
+            .loginsocialinner{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .socialmedia{
+                    width: 25%;
+                    height: 40px;
+                    padding: 8px;
+                    border: 1px solid #8080803b;
+                    border-radius: 6px;
+                    &:hover {
+                        background: #477b7214;
+                        transition: all 0.5s;
+                    }
+                    img{
+                        width: 23px;
+                        margin: auto;
+                        line-height: 25px;
+                    }
+                }
+             
+            }
+            .registerfirst{
+                margin-top: 50px;
+                    h3{
+                        font-size: 13px;
+    font-weight: 600;
+    color: black;
+    a{
+        color: #477b72;
+    }
+                    }
+            }
+        }
+        label{
+flex-direction: column;
+        }
+        .loginimgcover{
+            $image-bg: gray;
+            $image-border: white;
+            $image-border-current: aqua;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+            .radio-img {
+                span {
+                font-weight: 500;
+                font-size: 14px;
+                color: #477b72;
+                margin-top: 10px;
+            }
+        }
+            .image {
+                opacity: 0.8;
+            
+          
+              
+                display: inline-block;
+               
+            
+                &:hover {
+                  opacity: 1;
+                }
+            }
+            
+            .radio-img {
+                > input { 
+                    display:none;
+                }
+                > .image{
+              cursor:pointer;
+              border: 10px solid #477b721a;
+              border-radius: 50%;
+              width: 100px;
+              height: 100px;
+              object-fit: cover;
+                transition: all 0.5s;
+            
+            }
+                > input:checked + .image{ 
+              border:10px solid #f7ba34;
+              transition: all 0.5s;
+              border-radius: 50%;
+              width: 100px;
+              height: 100px;
+              object-fit: cover;
+            }
+                
+            }
+            
+            
+        .homescreeninner{
+           
+       
+        .appheading{
+            text-align: center;
+            h1{
+                display: block;
+            .headingw{
+                width: 100%;
+    
+            }
+        }
+        }
+     
+    }
+    }
+   
+        }
+    }
+    

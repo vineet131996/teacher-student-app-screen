@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+         rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="assests/css/"> -->
+      <link rel="stylesheet" href="assests/css/style.css">
+      <title>teaching mode</title>
+   </head>
+   <body>
+      <div class="teaching-mode">
+         <div class="appscreencover">
+            <div class="appheading">
+               <div class="menutop">
+                  <span class="arrowicon">
+                  <a href="category.html"> <i class="fa fa-arrow-left"></i></a>
+                  </span>
+                  <span class="headingw">   Teaching Mode </span>
+                  <span class="searchicon">
+                  <a href="search.html"> <i class="fa fa-search"></i></a>
+                  <a href="#"> <i class="fa fa-bell"></i></a>
+                  <a class="toggle-menu" href="#"><i></i><i></i><i></i></a>
+                  </span>
+               </div>
+               <div class="menublock">
+                <div class="menu-drawer">
+                   <div class="sidebarcover">
+                      <div class="sidebarhead">
+                         <img src="assests/images/logo2.png" alt="">
+                      </div>
+                      <div class="sidebarinner">
+                      </div>
+                   </div>
+                   <ul>
+                      <li>
+                      
+                       
+                       <a href="profile.html">
+                         <img src="assests/images/user-icon.svg" alt="">
+                         Profile</a>
+                      </li>
+                      <li>
+                      <a href="teacher-list.html">
+                     <img src="assests/images/notificationicon.svg" alt="">
+                         Notification</a>
+                      </li>
+                      <li>
+                        <a href="teacher-list.html">
+                          <img src="assests/images/teacherlist.svg" alt="">
+                          Teacher List
+                         </a>
+                      </li>
+                      <li>
+                       <a href="#">
+                         <img src="assests/images/location.svg" alt="">
+                         Location
+                        </a>
+                     </li>
+                   </ul>
+                </div>
+             </div>
+            </div>
+            <div class="appscreeninner">
+               <div class="centerblock">
+                  <div class="homescreencover">
+                     <div class="teachin-mode-imgcover">
+                        <div class="teacher-register-img">
+                           <img src="assests/images/modes-img.png" alt="">
+                        </div>
+                     </div>
+                     <div class="homescreeninner">
+                        <div class="teaching-modes">
+                           <h1>
+                              Which Mode Do You Want To Teach ?
+                           </h1>
+                           <div class="teaching-modesinner">
+                              <input type="radio" id="male1" name="gender" />
+                              <label for="male1">Home tuition at student home</label>
+                           </div>
+                           <div class="teaching-modesinner">
+                              <input type="radio" id="male2" name="gender" />
+                              <label for="male2">  Home tuition at Your home</label>
+                           </div>
+                           <div class="teaching-modesinner">
+                              <input type="radio" id="male3" name="gender" />
+                              <label for="male3">    online class</label>
+                           </div>
+                           <div class="teaching-modesinner">
+                              <input type="radio" id="male4" name="gender" />
+                              <label for="male4">   institute or group tuition or school</label>
+                           </div>
+                        </div>
+                        <div class="theambtn">
+                           <a href="confirmation.html">Submit</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   </body>
+   <script>
+      var $radioButtons = $('input[type="radio"]');
+      $radioButtons.click(function() {
+      $radioButtons.each(function() {
+          $(this).parent().toggleClass('addbgclass', this.checked);
+      });
+      });
+   </script>
+   <script>
+      $(function () {
+          $(".toggle-menu").click(function () {
+              $(this).toggleClass("active");
+              $('body').toggleClass("sidemenuopen");
+      
+          });
+      });
+   </script>
+</html>
