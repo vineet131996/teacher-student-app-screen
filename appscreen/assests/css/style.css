@@ -1,0 +1,1579 @@
+.maincover-step {
+  padding: 10px 0px 40px 0px;
+}
+
+.maincover-step .topnavigation {
+  line-height: 0;
+  padding: 0px 15px;
+  position: relative;
+}
+
+.maincover-step .modal-content {
+  width: 75% !important;
+  margin: auto !important;
+}
+
+.maincover-step .modal-header {
+  padding: 10px 10px !important;
+  border-bottom: 0px solid #e9ecef !important;
+}
+
+.maincover-step .termsconditions h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.maincover-step .termsconditions p {
+  font-size: 13px;
+  color: #a5acbc;
+}
+
+.mainsectionsizing {
+  position: relative;
+}
+
+.mainsectionsizing::after {
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  width: 150px;
+  height: 5px;
+  border-radius: 50px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #a5abbc;
+}
+
+.lawyer-profile,
+.client-profile {
+  width: 65px;
+}
+
+.leftarrownav {
+  font-size: 45px;
+  font-weight: 400;
+  color: #000;
+}
+
+.centertext h2 {
+  font-size: 15px;
+  color: #f09a1e;
+  font-family: 'Lato', sans-serif;
+}
+
+.centertext h2 span {
+  font-weight: 600;
+}
+
+.customstepimg {
+  width: 110px;
+  margin: auto;
+}
+
+.customstepimg h3 {
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  padding-top: 3px;
+  font-weight: 500;
+}
+
+.steponeform {
+  max-width: 500px;
+  background-color: #fff;
+  padding: 25px 40px 30px 40px;
+  margin: auto;
+}
+
+.lawyer-text {
+  font-size: 12px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+}
+
+.orsepration {
+  position: relative;
+}
+
+.orsepration span {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  margin: 5px 0px;
+  display: inline-block;
+}
+
+.orsepration::after {
+  position: absolute;
+  content: " ";
+  width: 47%;
+  left: 0px;
+  top: 50%;
+  background-color: #edecef;
+  height: 1px;
+}
+
+.orsepration::before {
+  position: absolute;
+  content: " ";
+  width: 47%;
+  right: 0px;
+  top: 50%;
+  background-color: #edecef;
+  height: 1px;
+}
+
+.signupbtnface, .signupbtngmail {
+  font-size: 12px;
+  padding: 4px 55px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #3d5a97;
+  text-transform: capitalize;
+  -webkit-box-shadow: 5px 3px 13px 1px #ccc;
+          box-shadow: 5px 3px 13px 1px #ccc;
+  font-family: 'Lato', sans-serif;
+}
+
+.signupbtnface:hover, .signupbtngmail:hover {
+  background-color: white;
+  color: #f09a1e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.signupbtngmail {
+  background-color: #c52127;
+}
+
+.signformbtn {
+  width: 250px;
+  margin: auto;
+}
+
+.signupsection {
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+
+.signupsection p {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: #a5abbc;
+  padding-bottom: 5px;
+}
+
+.centertext {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+::-webkit-input-placeholder {
+  font-size: 13px;
+}
+
+:-ms-input-placeholder {
+  font-size: 13px;
+}
+
+::-ms-input-placeholder {
+  font-size: 13px;
+}
+
+::placeholder {
+  font-size: 13px;
+}
+
+select {
+  font-size: 13px !important;
+  color: #6c757d !important;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 2px 10px;
+}
+
+select.form-control {
+  padding: 2px 5px;
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: calc(2.25rem + -7px) !important;
+}
+
+.stepthreehead .form-control {
+  z-index: 1;
+  background: transparent;
+  position: relative;
+}
+
+.stepthreehead .form-control:focus {
+  background-color: #fff;
+}
+
+.stepthreehead .flag,
+.stepthreehead .mobnumber {
+  position: relative;
+}
+
+.stepthreehead .countusa {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0px 5px;
+  z-index: 0;
+}
+
+.stepthreehead .leftinputpart,
+.stepthreehead .rightinputpart,
+.stepthreehead .mobnumber {
+  line-height: 13px;
+}
+
+.stepthreehead .leftinputpart img,
+.stepthreehead .rightinputpart img,
+.stepthreehead .mobnumber img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.stepthreehead .leftinputpart p,
+.stepthreehead .rightinputpart p,
+.stepthreehead .mobnumber p {
+  font-size: 10px;
+  color: #878484;
+}
+
+.stepthreehead .leftinputpart a,
+.stepthreehead .rightinputpart a,
+.stepthreehead .mobnumber a {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.stepthreehead .otppara p {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  color: #a4aabb;
+  padding: 15px 0px;
+  text-transform: capitalize;
+}
+
+.stepthreemodel .innermodeltext {
+  padding: 15px;
+}
+
+.stepthreemodel .innermodeltext p {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  color: #a4aabb;
+  padding: 5px 0px;
+  text-transform: capitalize;
+}
+
+.stepthreemodel .innermodeltext h3 {
+  font-size: 16px;
+}
+
+.stepthreemodel .okcancel .okclose {
+  padding: 4px !important;
+  width: 50% !important;
+  text-align: center !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: darkblue !important;
+  text-transform: capitalize !important;
+  border: 1px solid #80808038 !important;
+}
+
+.stepthreemodel .otppara {
+  max-width: 348px;
+  margin: auto;
+}
+
+.stepthreemodel .modal-dialog {
+  max-width: 300px !important;
+  margin: 50% auto !important;
+}
+
+.stepfourhead .resendotp h3 {
+  color: #f19b1e;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+.stepfourhead .otppara {
+  padding-top: 15px;
+}
+
+.stepfourhead .otppara p {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  color: #a4aabb;
+  padding: 0px 0px;
+  text-transform: capitalize;
+}
+
+.stepfourhead .accountreview.text-center.p-2 img {
+  max-width: 150px;
+}
+
+.stepfourhead form {
+  display: inline-block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+.stepfourhead form input {
+  width: 50px !important;
+  height: 50px !important;
+  padding: 0;
+  margin-right: 2px;
+  text-align: center;
+  border: none;
+  border-bottom: 5px solid #eae9ea;
+}
+
+.stepfourhead form input:last-child {
+  margin-right: 10px;
+}
+
+.stepfourhead form input::-webkit-inner-spin-button, .stepfourhead form input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.stepfourhead form input:focus, .stepfourhead form input.focus {
+  border-color: green;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.stepfourmodel .modal-dialog {
+  max-width: 288px;
+  margin: 50% auto;
+}
+
+.stepfourmodel .accountreview p {
+  color: #a5abbc;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.stepfourmodel .accountreview img {
+  width: 60%;
+}
+
+.modal {
+  background-color: rgba(245, 244, 249, 0.89) !important;
+}
+
+.addprofilehead .addprofileinner {
+  position: relative;
+}
+
+.addprofilehead .profilename {
+  max-width: 300px;
+  margin: auto;
+}
+
+.addprofilehead .profilecover {
+  padding: 170px 0px;
+}
+
+.addprofilehead .profilename h3 {
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.addprofilehead .profilename p {
+  font-size: 16px;
+  padding: 35px 0px;
+  color: #a5abbc;
+}
+
+.profile-pic {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+}
+
+.file-upload {
+  display: none;
+}
+
+.circle {
+  border-radius: 1000px !important;
+  overflow: hidden;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  background: white;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.circle img {
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-image {
+  position: absolute;
+  left: 60%;
+  top: 115px;
+  color: #666666;
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.p-image:hover {
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  color: #999;
+}
+
+.p-image .upload-button {
+  width: 40px;
+}
+
+.appointmenthead .createaccount {
+  width: 230px;
+}
+
+.appointmenthead .createaccount .loginbtn {
+  margin-top: 0px;
+}
+
+.appointmenthead .appointmentimg,
+.appointmenthead .completeprofile {
+  -webkit-box-shadow: 5px 3px 13px 1px #ccc;
+          box-shadow: 5px 3px 13px 1px #ccc;
+}
+
+.appointmenthead .appointmentimg-head h3 {
+  font-size: 16px;
+  color: #a5abbc;
+}
+
+.appointmenthead .appointmentimginner {
+  width: 60%;
+  margin: auto;
+}
+
+.appointmenthead .appointmentcover,
+.appointmenthead .completeprofile {
+  margin: 15px 20px;
+  background-color: white;
+}
+
+.appointmenthead .completeprofile {
+  padding: 50px;
+}
+
+.appointmenthead .appointmentimg-foot h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.appointmenthead-text {
+  margin: 15px 30px;
+}
+
+.appointmenthead-text h3 {
+  font-size: 16px;
+}
+
+.appointmenthead-text p {
+  font-size: 13px;
+  color: #a5abbc;
+  padding-top: 5px;
+}
+
+.profilefoot {
+  background-color: white;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.steptwoheadcopy .steponeform {
+  padding: 15px 40px 20px 40px;
+}
+
+.steptwoheadcopy .form-control {
+  padding: 3px 0.75rem;
+}
+
+.steptwoheadcopy select.form-control:not([size]):not([multiple]) {
+  height: calc(30px + 2px);
+}
+
+.steptwoheadcopy .form-group {
+  margin-bottom: 11px;
+}
+
+.updateprofilehead .profilefoot {
+  background-color: white;
+  padding: 50px;
+  margin-top: 10px;
+}
+
+.updateprofilehead .steponeform {
+  margin: 150px auto 0px auto;
+}
+
+.updateprofilehead .circle {
+  width: 110px;
+  height: 110px;
+}
+
+.updateprofilehead .upload-button {
+  width: 30px;
+}
+
+.updateprofilehead .p-image {
+  position: absolute;
+  left: 54%;
+  top: 135px;
+}
+
+.updateprofilehead .steponeform {
+  padding: 15px 40px 25px 40px;
+}
+
+.workingtimehead .timetablecover {
+  padding-top: 50px;
+}
+
+.workingtimehead .checkleft {
+  width: 10%;
+  text-align: center;
+}
+
+.workingtimehead .days.daytitle {
+  width: 20%;
+  text-align: center;
+}
+
+.workingtimehead .days.stardate {
+  width: 25%;
+  text-align: center;
+}
+
+.workingtimehead .days.toend {
+  width: 25%;
+  text-align: center;
+}
+
+.workingtimehead .timetable {
+  padding: 0px 25px;
+}
+
+.workingtimehead .form-control {
+  padding: 3px 3px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.workingtimehead ::-webkit-input-placeholder {
+  font-size: 13px;
+}
+
+.workingtimehead :-ms-input-placeholder {
+  font-size: 13px;
+}
+
+.workingtimehead ::-ms-input-placeholder {
+  font-size: 13px;
+}
+
+.workingtimehead ::placeholder {
+  font-size: 13px;
+}
+
+.workingtimehead .days .form-group {
+  margin-bottom: 0px !important;
+}
+
+.workingtimehead .days h3 {
+  font-size: 13px;
+}
+
+.workingtimehead .checkbox-control {
+  color: #555;
+  cursor: pointer;
+  padding: 5px;
+  line-height: 0 !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+.workingtimehead .checkbox-label {
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+.workingtimehead .checkbox-label {
+  color: #0074d9;
+}
+
+.workingtimehead .checkbox-control input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.workingtimehead .checkbox-control input:checked ~ .checkbox-shape .checkbox-outline {
+  stroke-dasharray: 280;
+  stroke-dashoffset: -25;
+}
+
+.workingtimehead .checkbox-control input:checked ~ .checkbox-shape .checkbox-check {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 0%;
+}
+
+.workingtimehead .checkbox-shape {
+  overflow: visible !important;
+  display: inline-block;
+  margin-right: .5em;
+  height: 14px;
+  width: auto;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.workingtimehead .checkbox-outline {
+  stroke-dasharray: 340;
+  stroke-dashoffset: 0;
+  stroke: currentColor;
+  fill: rgba(132, 198, 255, 0);
+  fill: transparent;
+  -webkit-transition-property: stroke-dasharray, stroke-dashoffset, stroke, fill;
+  transition-property: stroke-dasharray, stroke-dashoffset, stroke, fill;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+.workingtimehead .checkbox-check {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  stroke: currentColor;
+  -webkit-transition-property: stroke-dashoffset, stroke;
+  transition-property: stroke-dashoffset, stroke;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+.videocallhead {
+  position: relative;
+}
+
+.videocallhead .videocallscreen {
+  width: 50%;
+  height: 50%;
+}
+
+.videocallhead .videocallscreen img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.videocallhead .fourscreencover {
+  width: 100%;
+  height: 100%;
+}
+
+.videocallhead .videocontroler {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+
+.videocallhead .videocontroler ul li a {
+  font-size: 30px;
+  color: white;
+  display: block;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  /* line-height: 100px; */
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 13px;
+}
+
+.videocallhead .videocontroler ul li a .fa-rotate-134 {
+  -webkit-transform: rotate(134deg);
+          transform: rotate(134deg);
+}
+
+.videocallhead .videocontroler ul li a:hover {
+  background-color: white;
+  color: #f1676f;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.mainsectionsizing.videocallhead::after {
+  display: none !important;
+}
+
+.myprofilehead .appointmenthead-text h3 {
+  font-size: 20px;
+}
+
+.myprofilehead .p-image {
+  position: absolute;
+  left: 54%;
+}
+
+.myprofilehead .p-image .upload-button {
+  width: 30px;
+}
+
+.myprofilehead .circle {
+  width: 105px;
+  height: 105px;
+  top: 50px;
+}
+
+.myprofilehead .steponeform {
+  padding: 15px 40px 20px 40px;
+}
+
+.myprofilehead .form-control {
+  padding: 3px 0.75rem;
+}
+
+.myprofilehead select.form-control:not([size]):not([multiple]) {
+  height: calc(30px + 2px);
+}
+
+.myprofilehead .form-group {
+  margin-bottom: 11px;
+}
+
+.myprofilehead .steponeform {
+  margin: 120px auto 0px auto;
+}
+
+.notificationhead .notificationcover {
+  padding: 0px 20px;
+}
+
+.notificationhead .profileinner {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.notificationhead .notificationprofile h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.notificationhead .notificationprofile h5 {
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b6b6b;
+  padding: 4px 0px;
+}
+
+.notificationhead .notificationprofile h6 {
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.notificationhead .tabs {
+  position: relative;
+  min-height: 375px;
+  width: 100%;
+  margin: 25px 0;
+}
+
+.notificationhead .tabs::after {
+  position: absolute;
+  width: 100%;
+  background-color: #ababab;
+  height: 1px;
+  content: " ";
+  top: 0px;
+  left: 0px;
+}
+
+.notificationhead .tabs::before {
+  position: absolute;
+  width: 100%;
+  background-color: #ababab;
+  height: 1px;
+  content: " ";
+  top: 38px;
+  left: 0px;
+  z-index: 0;
+}
+
+.notificationhead .tabs .tab {
+  float: left;
+}
+
+.notificationhead .tabs .tab label {
+  background: transparent;
+  margin: 2px 35px;
+  color: #a6abbd;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: -1px;
+  line-height: 34px;
+  z-index: 999999;
+  position: relative;
+}
+
+.notificationhead .tabs .tab:first-child label {
+  margin-left: 0;
+}
+
+.notificationhead .tabs .tab input[type=radio] {
+  display: none;
+}
+
+.notificationhead .tabs .tab input[type="radio"]:checked {
+  background-color: red !important;
+}
+
+.notificationhead .tabs .tab .tab-content {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0px 20px;
+  border: 0px solid #ccc;
+  display: none;
+  margin: 15px 0px;
+}
+
+.notificationhead .tabs .tab input[type=radio]:checked ~ label {
+  border-bottom: 5px solid #f09c21;
+}
+
+.notificationhead .tabs .tab input[type=radio]:checked ~ label ~ .tab-content {
+  display: block;
+}
+
+.notificationhead .notinitioninner {
+  background: -webkit-gradient(linear, left bottom, left top, from(#f09b1f), to(#f9bc9f));
+  background: linear-gradient(0deg, #f09b1f 0%, #f9bc9f 100%);
+  padding: 30px 20px;
+}
+
+.notificationhead .notinitioninner .profileinner {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+}
+
+.notificationhead .owl-nav,
+.notificationhead .owl-dots {
+  display: none;
+}
+
+.notificationhead .owl-item {
+  width: 400px;
+}
+
+.notificationhead .notifictontextinner h3 {
+  font-size: 13px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.notificationhead .notbuttons a {
+  color: white;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1px solid white;
+  font-size: 11px;
+  border-radius: 2px;
+}
+
+.notificationhead .notbuttons .startbtn {
+  color: #f9bc9f;
+  background-color: white;
+}
+
+.notificationhead .tabtable {
+  width: 100%;
+  padding: 5px 0px;
+  position: relative;
+}
+
+.notificationhead .tabtable::after {
+  background-color: #c7c1c1;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: 30%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  top: 0px;
+}
+
+.notificationhead .tableft,
+.notificationhead .tabright {
+  width: 50%;
+}
+
+.notificationhead .notetable {
+  padding: 15px 0px;
+  position: relative;
+}
+
+.notificationhead .notetable::after {
+  position: absolute;
+  content: " ";
+  background-color: #f27621;
+  left: 35%;
+  top: 15px;
+  width: 1px;
+  height: 90%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.notificationhead .review .tab-content {
+  background-color: #fff;
+  padding: 0px 0px !important;
+}
+
+.notificationhead .notinitioninnerreview .notificationreview {
+  padding: 10px 10px 15px 10px;
+  border-bottom: 1px solid #80808024;
+}
+
+.notificationhead .notinitioninnerreview .notificationreview h3 {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.notificationhead .notinitioninnerreview .notificationreview h2 {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.notificationhead .notinitioninnerreview .notificationreview span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.notificationhead .notinitioninnerreview .notificationreview .reviewinnerpara {
+  padding-left: 10px;
+  margin: 8px 0px;
+  position: relative;
+}
+
+.notificationhead .notinitioninnerreview .notificationreview .reviewinnerpara::after {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #f09c21;
+  content: " ";
+  left: 0px;
+  top: 0px;
+}
+
+.notificationhead .notinitioninnerreview .notificationreview .reviewinnerpara p {
+  font-size: 11px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.statushead .crimiallayer {
+  background-color: #fff;
+  margin: 45px 15px 15px 15px;
+  padding: 0px 10px;
+}
+
+.statushead .crimiallayer .lawpro {
+  background-color: #e7e6e6;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: -50px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.statushead .crimiallayer .crimialtext a {
+  padding: 5px 10px;
+  background-color: #d0d0d0;
+  color: black;
+  font-size: 10px;
+  border-radius: 50px;
+}
+
+.statushead .crimiallayer .likebtn i {
+  font-size: 20px;
+}
+
+.statushead .crimiallayer .profilename h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.statushead .crimiallayer .profilename h4 {
+  color: #a5abbc;
+  font-size: 13px;
+  padding: 3px 0px;
+}
+
+.statushead .crimiallayer .profilename h5 {
+  color: #14b04b;
+  font-size: 13px;
+  position: relative;
+  display: inline;
+}
+
+.statushead .crimiallayer .profilename h5::after {
+  position: absolute;
+  content: "";
+  background-color: #14b04b;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 7px;
+  left: -24%;
+}
+
+.statushead .crimiallayer .lawyerprofile {
+  width: 35%;
+}
+
+.statushead .crimiallayer .star ul li i {
+  color: #f19b1e;
+  font-size: 15px;
+  margin: 0px 3px;
+}
+
+.statushead .crimiallayer .contactbtninner {
+  width: 100%;
+}
+
+.statushead .crimiallayer .messgaecall,
+.statushead .crimiallayer .createaccount {
+  width: 50%;
+}
+
+.statushead .crimiallayer .message a,
+.statushead .crimiallayer .call a {
+  display: inline-block;
+  background: #f4f3f8;
+  font-size: 20px;
+  width: 35px;
+  color: #f09a1e;
+  border-radius: 50%;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.statushead .crimiallayer .careerhead h3 {
+  color: #a5abbc;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.statushead .crimiallayer .hours .hourinner {
+  padding: 5px 0px 5px 15px;
+}
+
+.statushead .crimiallayer .hours h2 {
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 4px;
+}
+
+.statushead .crimiallayer .hours .hourinner h3 {
+  font-size: 12px;
+  color: #a5abbc;
+  position: relative;
+}
+
+.statushead .crimiallayer .hours .hourinner h3::after {
+  position: absolute;
+  content: "";
+  background-color: #f09a1e;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: -14px;
+  top: 6px;
+}
+
+.statushead .crimiallayer .hours .hourinner h2 {
+  font-size: 12px;
+  color: #a5abbc;
+}
+
+.statushead .crimiallayer .hours .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.statushead .crimiallayer .hours .single-chart {
+  width: 33%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.statushead .crimiallayer .hours .circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.statushead .crimiallayer .hours .circle-bg {
+  fill: none;
+  stroke-width: 3.8;
+}
+
+.statushead .crimiallayer .hours .circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  -webkit-animation: progress 1s ease-out forwards;
+          animation: progress 1s ease-out forwards;
+}
+
+@-webkit-keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.statushead .crimiallayer .hours .circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.statushead .crimiallayer .hours .circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.statushead .crimiallayer .hours .circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.statushead .crimiallayer .hours .percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+.statushead .crimiallayer .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.statushead .crimiallayer .single-chart {
+  width: 100%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.statushead .crimiallayer .circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.statushead .crimiallayer .circle-bg {
+  fill: none;
+  stroke-width: 3.8;
+}
+
+.statushead .crimiallayer .circleone {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  -webkit-animation: progress 1s ease-out forwards;
+          animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.statushead .crimiallayer .circular-chart.orange .circleone {
+  stroke: #f09c21;
+}
+
+.statushead .crimiallayer .circular-chart.green .circleone {
+  stroke: #59c2c0;
+}
+
+.statushead .crimiallayer .circular-chart.blue .circleone {
+  stroke: #eb1d33;
+}
+
+.statushead .crimiallayer .percentage {
+  fill: #000;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 375px) {
+  .customstepimg {
+    width: 80px;
+    margin: auto;
+  }
+  .lawyer-profile, .client-profile {
+    width: 55px;
+  }
+  .signupbtnface, .signupbtngmail {
+    font-size: 10px;
+  }
+  .orsepration span {
+    font-size: 11px;
+  }
+  .customstepimg h3 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .lethead .letstart {
+    padding: 100px 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .lethead .letstart {
+    padding: 70px 15px;
+  }
+  .lethead .letstart .createaccount {
+    width: 170px;
+  }
+  .lethead .letstart .createaccount .custombtn, .lethead .letstart .createaccount .loginbtn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+  .lethead .letstart .createaccount .loginbtn {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .lethead .letstart p {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .notificationhead .notbuttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .notificationhead .notbuttons a.mr-2 {
+    margin-right: 0px !important;
+    margin-bottom: 4px;
+  }
+  .notificationhead .notbuttons .startbtn.ml-2 {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .stepfourmodel .modal-dialog {
+    max-width: 210px !important;
+    margin: 52% auto !important;
+  }
+  .stepfourmodel .modal-dialog .accountreview p {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .steponeform {
+    margin: 0px 20px 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .myprofilehead .steponeform {
+    margin: 135px 20px 0px 30px;
+    height: 437px;
+    overflow: auto;
+  }
+  .myprofilehead .circle {
+    width: 85px;
+    height: 85px;
+  }
+  .myprofilehead .upload-button {
+    width: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .updateprofilehead .steponeform {
+    margin: 135px 20px 0px 30px;
+    height: 437px;
+    overflow: auto;
+  }
+  .updateprofilehead .circle {
+    width: 90px;
+    height: 90px;
+  }
+  .updateprofilehead .upload-button {
+    width: 20px !important;
+  }
+  .updateprofilehead .p-image {
+    left: 58%;
+    top: 117px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .leftarrownav {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .steponeform {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 25px 20px 30px 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .stepthreemodel .modal-dialog {
+    max-width: 200px !important;
+  }
+  .stepthreemodel .modal-dialog h3 {
+    font-size: 13px;
+  }
+  .stepthreemodel .modal-dialog p {
+    font-size: 10px;
+  }
+  .stepthreemodel .modal-dialog .okclose {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .videocontroler ul li a {
+    font-size: 20px !important;
+    width: 35px !important;
+    height: 35px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .appointmenthead .appointmentimg-foot h3,
+  .appointmenthead .appointmentimg-head h3 {
+    font-size: 13px !important;
+  }
+  .appointmenthead .completeprofile .createaccount {
+    width: 80% !important;
+  }
+  .appointmenthead .completeprofile .createaccount .loginbtn {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .addprofilehead .letstart .profilename h3 {
+    font-size: 20px !important;
+  }
+  .addprofilehead .letstart .profilename p {
+    font-size: 13px;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainsectionsizing {
+  font-family: 'Lato', sans-serif;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.mainsectionsizing {
+  max-width: 768px;
+  width: 100%;
+  margin: auto;
+  background-color: #f4f3f8 !important;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.letstart {
+  padding: 100px 15px;
+}
+
+.letstartimg {
+  width: 165px;
+  margin: auto;
+}
+
+.letstarthead {
+  padding: 30px 0px 70px 0px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.letstarthead h1 {
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.letstarthead p {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  color: #a4aabb;
+  padding: 15px 0px;
+  text-transform: capitalize;
+}
+
+.custombtn,
+.loginbtn {
+  font-size: 13px;
+  padding: 10px 50px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #f09a1e;
+  text-transform: capitalize;
+  border: 2px solid #f09a1e;
+  font-family: 'Lato', sans-serif;
+  -webkit-box-shadow: 5px 3px 13px 1px #ccc;
+          box-shadow: 5px 3px 13px 1px #ccc;
+}
+
+.custombtn:hover {
+  background-color: white;
+  color: #f09a1e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.loginbtn {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #f09a1e;
+  margin-top: 20px;
+}
+
+.loginbtn:hover {
+  background-color: #f09a1e;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.createaccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

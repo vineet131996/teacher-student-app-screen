@@ -1,0 +1,108 @@
+.stepthreehead{
+
+    .form-control{
+    z-index: 1;
+    background: transparent;
+    position: relative;
+    &:focus{
+        background-color: #fff;
+
+    }
+    }
+
+.flag,
+.mobnumber{
+    position: relative;
+}
+.countusa {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px 5px;
+    z-index: 0;
+}
+
+.leftinputpart,
+.rightinputpart,
+.mobnumber {
+    line-height: 13px;
+    img{
+    width: 15px;
+    margin-right: 5px;
+    }
+    p{
+    font-size: 10px;
+    color: #878484;
+    }
+    a{
+        font-size: 12px;
+        font-weight: bold;
+        color: #000;
+    }
+}
+
+.otppara{
+    p {
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+        color: #a4aabb;
+        padding: 15px 0px;
+        text-transform: capitalize;
+    }
+}
+
+
+
+    
+   
+   
+}
+.stepthreemodel{
+
+    .innermodeltext {
+        padding: 15px;
+    }
+
+    .innermodeltext {
+        p {
+            font-size: 13px;
+            font-family: 'Lato', sans-serif;
+            color: #a4aabb;
+            padding: 5px 0px;
+            text-transform: capitalize;
+        }
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .okcancel{ 
+        .okclose {
+            padding: 4px !important;
+            width: 50% !important;
+            text-align: center !important;
+            font-size: 15px !important;
+            font-weight: 500 !important;
+            color: darkblue !important;
+            text-transform: capitalize !important;
+            border: 1px solid #80808038 !important;
+    }
+    
+    }
+    .otppara{
+        max-width: 348px;
+        margin: auto;
+    }
+
+
+// .modal {
+//     background-color: rgba(216, 221, 226 / 89%) !important;
+
+// }
+
+.modal-dialog {
+max-width: 300px !important;
+margin: 50% auto!important;
+}
+
+}

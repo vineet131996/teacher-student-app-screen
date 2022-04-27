@@ -1,0 +1,291 @@
+$small-mobile: 375px;
+$mobile-width: 420px;
+$tablet-width: 576px;
+$desktop-width: 767px;
+
+@mixin tablet {
+    @media only screen and (max-width: #{$desktop-width}){
+      @content;
+    }
+}
+@mixin smartphone {
+    @media only screen and (max-width: #{$tablet-width}){
+      @content;
+    }
+}
+@mixin smphone {
+    @media only screen and (max-width: #{$mobile-width}){
+      @content;
+    }
+}
+@mixin smmobile {
+    @media only screen and (max-width: #{$small-mobile}){
+        @content;
+    }
+}
+
+// indexpage responsive
+
+
+@include smmobile{
+.customstepimg {
+    width: 80px;
+    margin: auto;
+}
+
+.lawyer-profile, .client-profile {
+    width: 55px;
+}
+.signupbtnface, .signupbtngmail {
+    font-size: 10px;
+}
+.orsepration span{
+    font-size: 11px;
+}
+.customstepimg h3 {
+    font-size: 14px;
+}
+}
+
+
+
+
+
+.lethead{
+    .letstart{
+@include smphone{
+    padding: 100px 15px;
+}
+    }
+
+
+    .letstart{
+@include smmobile{
+
+        padding: 70px 15px;
+        .createaccount{
+
+        width: 170px;
+        .custombtn, .loginbtn {
+            font-size: 13px;
+            padding: 6px 10px;
+        }
+        .loginbtn{
+            margin-top: 10px;
+        }
+    }
+    }
+   
+    @include smmobile{
+    p {
+        font-size: 11px;
+    }
+}
+
+
+}
+}
+
+
+
+// indexpage responsive end
+
+
+
+
+// steponepage reponsive start
+
+
+
+.notificationhead{
+    .notbuttons{
+    @include smmobile{
+flex-direction: column;
+text-align: center;
+a.mr-2{
+    margin-right: 0px!important;
+    margin-bottom: 4px;
+}
+.startbtn.ml-2{
+    margin-left: 0px!important;
+
+}
+
+    }
+}
+}
+
+
+.stepfourmodel{
+@include smmobile{
+.modal-dialog {
+    max-width: 210px !important;
+    margin: 52% auto !important;
+
+    .accountreview{
+        p{
+            font-size: 11px;
+        }
+    }
+}
+}
+}
+
+ 
+
+
+
+
+    @include smartphone{
+        .steponeform {
+            margin: 0px 20px 0px 30px;
+
+        }
+    }
+
+    .myprofilehead{
+        @include smartphone{
+
+            .steponeform {
+                margin: 135px 20px 0px 30px;
+                height: 437px;
+                overflow: auto;
+    
+            }
+            .circle {
+                width: 85px;
+                height: 85px;
+            }
+            .upload-button {
+                width: 20px!important;
+            }
+
+    }
+}
+
+
+.updateprofilehead {
+@include smartphone{
+    .steponeform {
+        margin: 135px 20px 0px 30px;
+        height: 437px;
+        overflow: auto;
+
+    }
+    .circle {
+    width: 90px;
+    height: 90px;
+}
+.upload-button {
+    width: 20px!important;
+}
+.p-image {
+  
+    left: 58%;
+    top: 117px;
+}
+}
+}
+    .leftarrownav {
+        @include smmobile{
+        font-size: 30px;
+    }
+}
+
+    .steponeform{
+        @include smmobile{
+    
+        max-width: 500px;
+        background-color: #fff;
+        padding: 25px 20px 30px 20px;
+    }
+    }
+
+    .stepthreemodel{
+@include smmobile{
+    .modal-dialog {
+        max-width: 200px !important;
+        h3 {
+            font-size: 13px;
+        }
+        p {
+            font-size: 10px;
+        }
+        .okclose {
+         
+            font-size: 10px !important;
+        }
+
+
+    }
+}
+    }
+
+    .videocontroler{
+        @include smartphone{
+            ul {
+                li{
+
+                a {
+                font-size: 20px!important;
+                width: 35px!important;
+                height: 35px!important;
+        }
+    }
+}
+        }
+    }
+
+
+    .appointmenthead{
+      
+       
+        @include smmobile {
+            .appointmentimg-foot,
+            .appointmentimg-head{
+
+                h3 {
+                   font-size: 13px!important;
+                   
+               }
+           }
+
+         
+            .completeprofile{
+            
+     .createaccount{
+   
+        width: 80%!important;
+        .loginbtn {
+            font-size: 12px;
+            padding: 10px 5px;
+        }
+    }
+
+}
+        }
+    }
+
+
+
+
+
+ .addprofilehead{
+
+
+.letstart{
+    @include smartphone{
+     .profilename {
+        h3 {
+        font-size: 20px!important;
+       
+    }
+    p{
+        font-size: 13px;
+    }
+
+}
+}
+}
+
+}

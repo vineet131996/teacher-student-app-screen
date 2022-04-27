@@ -1,0 +1,93 @@
+.stepfourhead{
+	
+
+	.resendotp{
+		h3 {
+			color: #f19b1e;
+			font-size: 16px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 600;
+		}
+	}
+	.otppara{
+		padding-top: 15px;
+		p {
+			font-size: 13px;
+			font-family: 'Lato', sans-serif;
+			color: #a4aabb;
+			padding: 0px 0px;
+			text-transform: capitalize;
+		}
+	}
+	
+	
+	.accountreview.text-center.p-2{
+	
+	 img {
+		max-width: 150px;
+	}
+	}
+
+	
+	form{
+		display: inline-block;
+		justify-content: space-between;
+		align-items: center;
+		width: auto;
+		margin: 0 auto;
+		input{
+			width: 50px!important;
+			height: 50px!important;
+			padding: 0;
+			margin-right: 2px;
+			text-align: center;
+            border:none;
+			border-bottom:5px solid #eae9ea;
+			&:last-child{
+				margin-right: 10px;
+			}
+			&::-webkit-inner-spin-button, 
+			&::-webkit-outer-spin-button { 
+				-webkit-appearance: none;
+				appearance: none;
+				margin: 0;
+			}
+			&:focus,
+			&.focus{
+				border-color: green;
+				outline: none;
+				box-shadow: none;
+			}
+		}
+	}
+	
+	
+	
+	
+}
+
+.stepfourmodel{
+
+	.modal-dialog {
+		max-width: 288px;
+		margin: 50% auto;
+	}
+	.accountreview{
+		p{
+			color: #a5abbc;
+			font-size: 15px;
+			font-family: 'Lato', sans-serif;
+		}
+		img{
+			width: 60%;
+		}
+	}
+
+}
+
+.modal {
+	background-color: rgba(245, 244, 249, 0.89) !important;
+}
+
+
+

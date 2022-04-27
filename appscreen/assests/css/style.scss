@@ -1,0 +1,141 @@
+@import "stepone";
+@import "steptwo";
+@import "stepthree";
+@import "stepfour";
+@import "addprofile";
+@import "appointment";
+@import "steptwocopy";
+@import "updateprofile";
+@import "workingdaystime";
+@import "videocall";
+@import "myprofile";
+@import "notification";
+@import "statusa";
+@import "responsive";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+.mainsectionsizing{
+    font-family: 'Lato', sans-serif;
+}
+.form-control{
+    border-radius: 0px;
+}
+
+.mainsectionsizing{
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+    background-color: #f4f3f8 !important;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.letstart {
+    padding: 100px 15px;
+ 
+}
+.letstartimg {
+    width: 165px;
+    margin: auto;
+}
+
+
+.letstarthead {
+    padding: 30px 0px 70px 0px;
+    max-width: 400px;
+    margin: auto;
+
+    h1{
+        font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+
+    }
+    p {
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+        color: #a4aabb;
+        padding: 15px 0px;
+        text-transform: capitalize;
+    }
+}
+
+.custombtn,
+.loginbtn{
+    font-size: 13px;
+    padding: 10px 50px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #f09a1e;
+    text-transform: capitalize;
+    border: 2px solid #f09a1e;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 5px 3px 13px 1px #ccc;
+}
+.custombtn{
+    &:hover{
+        background-color: white;
+        color: #f09a1e;
+        transition: all 0.5s;
+    }
+}
+.loginbtn{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #f09a1e;
+    margin-top: 20px;
+    &:hover{
+        background-color: #f09a1e;
+        color: #fff;
+        transition: all 0.5s;
+    }
+}
+.createaccount{
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   margin: auto;
+   text-align: center;
+//    justify-content: center;
+// align-items: center;
+} 
+
+
+// $small: 360px;
+// $medium: 900px;
+
+
+
+//   @media screen and (max-width: $small) {
+
+//     .letstarthead {
+//         padding: 30px 0px 50px 0px;
+   
+//   }
+//   .loginbtn{
+      
+//       font-size: 11px!important;
+//   }
+//   .createaccount {
+//       width: 100%!important;
+//   }
+//   .appointmenthead .completeprofile {
+//     padding: 30px!important;
+// }
+// }
+//   @media screen and (min-width: $medium) {
+    
+//   }
+
